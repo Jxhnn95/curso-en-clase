@@ -1,0 +1,23 @@
+
+anidar paginas d emenu
+li a routerlinkActive=active menu"[routerLinkActiveOptions="exact:true") <>
+en app component:
+.active-menu{
+background-color:
+
+
+menur desplecable
+
+
+li class="dropdown-menu"> tranferencias
+ul class= "submenu">
+li
+
+
+css
+.drop.menu -submenu{
+display:none;
+}
+.drop.menu:hover .submenu{
+display:block;
+{

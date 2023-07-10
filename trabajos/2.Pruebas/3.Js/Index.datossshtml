@@ -1,0 +1,348 @@
+
+
+/*     ()parametros de funcion  [] lista {}function agrupar linias de codigo*/
+
+<body>
+<!-- ... -->
+<script>
+function myFunction() {
+document.getElementById("demo").innerHTML = "Párrafo cambiado";
+}
+
+// PascalCase (recomendado en JavaScript para las clases)
+const LastName = 'Doe';
+
+<script>
+alert("Hello world!");
+</script>
+
+
+
+<!-- index.html -->
+104
+LOTE 2
+<script>
+alert("Hello world!");
+document.write("Hello world!");
+console.log("Hello world!")
+</script>
+
+
+// main.js
+console.log('Hello world!');
+node main.js
+
+
+/*confirmacion*/
+<script>
+const conf = confirm("Sí o no");
+// true o fase
+console.log(conf);
+</script>
+
+
+
+<script>
+// hola
+console.log('hola');
+108
+LOTE 2
+// en un lugar de la mancha
+console.log('en', 'un', 'lugar', 'de', 'la', 'Mancha');
+console.info('Info');
+console.warn('Warning');
+console.error('Error');
+</script>
+
+_____________________________-______________________________________________________________________________________________________________________________
+Ejercicio 1: probar si las siguientes evaluaciones devuelven true o false.
+4.3 >= 4
+1 == 2
+4 < 4
+2 !== 5
+5 == '5'
+5 === '5'
+5 == 5
+5 === 5
+const a = 4.3;
+const b = 4;
+if (a > b) {
+console.log(`a (${a}) es mayor que b (${b})`);
+}
+const a = 1;
+const b = 2;
+if (a > b) {
+console.log(`a (${a}) es mayor que b (${b})`);
+}
+const a = 4;
+const b = 4;
+if (a > b) {
+console.log(`a (${a}) es mayor que b (${b})`);
+}
+const a = 2;
+const b = 5;
+if (a > b) {
+console.log(`a (${a}) es mayor que b (${b})`);
+}
+const a = 5;
+const b = '5';
+if (a > b) {
+console.log(`a (${a}) es mayor que b (${b})`);
+}
+const a = 5;
+const b = '5';
+if (a > b) {
+console.log(`a (${a}) es mayor que b (${b})`);
+}
+const a = 5;
+const b = 5;
+if (a > b) {
+console.log(`a (${a}) es mayor que b (${b})`);
+}
+const a = 5;
+const b = 5;
+if (a > b) {
+console.log(`a (${a}) es mayor que b (${b})`);
+}
+
+
+
+
+
+
+
+
+
+
+
+Pueden establecerse varias condiciones anidadas con else if.
+const a = 4;
+const b = 2;
+if (a > b) {
+console.log(`a (${a}) es mayor que b (${b})`);
+}
+else if (a < b) {
+console.log(`b (${b}) es mayor que b (${a})`);
+}
+else if (a === b) {
+console.log(`b (${b}) es igual y posee el mismo tipo que b (${a})`);
+}
+Y también una condición de else si las anteriores condiciones no se cumplen.
+132
+LOTE 2
+const a = 4;
+const b = 2;
+if (a > b) {
+console.log(`a (${a}) es mayor que b (${b})`);
+}
+else if (a < b) {
+console.log(`b (${b}) es mayor que b (${a})`);
+}
+else {
+console.log(`b (${b}) es igual que b (${a})`);
+
+
+
+_____________________
+
+
+</script>
+</body>
+
+
+<script>
+    // correcto
+    const nombre = "Alejandro";
+    function saludar() {
+    document.write(nombre);
+    }
+    // error porque Javascript interpretaría:
+    // const nombre = "Alejandro" (function saludar() {console.log('Hola'); })()
+    const nombre = "Alejandro"
+    (function saludar() {
+    document.write("Hola");
+    })();
+    // para evitarlo se añade el punto y coma
+    const nombre = "Alejandro";
+    (function saludar() {
+    document.write("Hola");
+    })();
+    </script>
+    Los espacios en blanco entre asignaciones de variables son permitidos.
+    const person1="Hege";
+    const person2 = "Hege";
+    La función prompt permite pedir información por pantalla en el navegador.
+    <script>
+    const nombre = prompt("Escriba su nombre", "Escriba aquí");
+    110
+    LOTE 2
+    console.log(nombre);
+    </script>
+    La función confirm permite pedir confirmación por pantalla en el navegador.
+    <script>
+    const conf = confirm("Sí o no");
+    // true o fase
+    console.log(conf);
+    </script>
+
+// PascalCase (recomendado en JavaScript para las clases)
+const LastName = 'Doe';
+// camelCase (recomendado en JavaScript para las variables y funciones)
+const lastName = 'Doe';
+const person = 'John Doe', carName = 'Volvo', price = 200
+
+Valor especial Infinity: únicamente en operaciones con números.
+// Infinity
+const variable1 = 1/0;
+Valor especial NaN: únicamente cuando se realiza una conversión incorrecta a variable
+numérica.
+// NaN
+const variable2 = parseFloat('prueba');
+Variable especial undefined: indica que la variable ha sido declarada pero no se le ha
+asignado valor.
+let variable4;
+// undefined
+console.log(variable4);
+// error
+console.log(variable_nodeclarada);
+null y undefined son similares, pero no son exactamente iguales.
+// true
+console.log(null == undefined);
+// false
+console.log(null === undefined );
+
+
+var alert1 = 5;
+// permitido
+var alert1 = '';
+let alert2 = 5;
+// no permitido porque ya se declaró antes
+let alert2 = 5;
+
+/* alerta de similares */
+// ƒ alert() { [native code] }
+console.log(window.alert);
+// ƒ alert() { [native code] }
+console.log(alert);
+// true
+console.log(window.alert === alert);
+var alert = 5;
+// 5
+console.log(alert);
+// 5
+console.log(window.alert);
+// error
+alert('Hello world!');
+// error
+window.alert('Hello world!');
+let alert = 5;
+// 5
+console.log(alert);
+// function
+console.log(window.alert);
+// error
+alert('Hello world!');
+// correcto
+window.alert('Hello world!');
+Poner numeros
+
+
+const numero0 = 1;
+const numero1 = 20.1;
+// 32
+const numero2 = 3.2e1;
+// 300
+const numero3 = 3e2;
+// hexadecimal
+const numero4 = 0x1f;
+// binario
+const numero5 = 0b1010;
+// octal
+const numero6 = 0o744;
+// otra forma de declarar una variable de tipo numérico
+const numero7 = Number(2)
+
+
+
+poner en orden
+
+
+const array1 = [];
+const array2 = [20, 3, 8];
+const array3 = ['Carmen', 'Juan'];
+// otra forma de declarar arrays
+const array4 = new Array(20, 3, 8);
+const array5 = new Array(null, undefined, '', 8);
+
+
+
+fecha y Hora
+
+
+const date1 = new Date();
+// Sun Apr 22 2018 12:37:06 GMT+0200 (Hora de verano romance)
+console.log(date1);
+// milisegundos en formato Unix
+const milisegundos = new Date().getTime();
+// fecha creada a partir del número de milisegundos en formato Unix
+const date2 = new Date(milisegundos);
+
+
+
+
+typeof puede devolver:
+number
+string
+boolean
+function
+object
+undefined
+// number
+console.log(typeof 3);
+// number
+console.log(typeof NaN);
+// number
+console.log(typeof parseInt('hola'));
+// string
+console.log(typeof 'hola');
+// boolean
+console.log(typeof true);
+// function
+console.log(typeof function() {});
+// object
+console.log(typeof {foo: 'bar'});
+// object
+console.log(typeof ['a', 'b', 'c']);
+// object
+console.log(typeof new Date())
+
+// object
+console.log(typeof null);
+// undefined
+console.log(typeof undefined);
+// undefined
+console.log(typeof unknown);
+
+
+
+
+
+
+
+const a = 4;
+const b = 2;
+if (a > b) {
+console.log(`a (${a}) es mayor que b (${b})`);
+}
+else if (a < b) {
+console.log(`b (${b}) es mayor que b (${a})`);
+}
+else {
+console.log(`b (${b}) es igual que b (${a})`);
+}
+
+
+hora:
+const date1 = new Date();
+// Sun Apr 22 2018 12:37:06 GMT+0200 (Hora de verano romance)
+console.log(date1);

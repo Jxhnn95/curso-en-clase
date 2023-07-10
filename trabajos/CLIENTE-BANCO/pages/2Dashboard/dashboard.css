@@ -1,0 +1,134 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    /*fondo pantalla*/
+    margin: 0;
+    padding: 0;
+    font-family: monserrate;
+    background: linear-gradient(0deg, white, #041b79);
+    height: 100vh;
+    /**/
+
+}
+header {
+    /*cuadro de navegacion tipo netflix web*/
+    background: white;
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+
+}
+
+.menu {
+    width: 900px;
+    margin: 0 auto;
+
+}
+
+img {
+    width: 120px;
+    height: 50px;
+    float: left;
+    padding: 8px
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 75px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+}
+
+nav ul li a ::before {
+    /*para mover seleccion de curadors*/
+    display: block;
+    content: '';
+    width: 100%;
+    background: #444;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 1s;
+
+
+}
+
+nav ul li a:hover::before {
+    width: 100%;
+}
+
+
+
+
+
+/*cuadro para dashboard tabla envios y recibidos*
+
+
+function INGRESOS() {
+    return (
+      <Text
+        name="INGRESOS"
+        fill="#FFF"
+        fontFamily="El Messiri"
+      >
+        INGRESOS
+      </Text>
+    );
+  }
+
+  
+function Rectangle1() {
+    return (
+      <Rectangle
+        name="Rectangle1"
+        fill="#D8DFE5"
+        width={398}
+        height={229}
+      />
+    );
+  }
+
+
+
+  function GASTOS() {
+    return (
+      <Text
+        name="GASTOS"
+        fill="#FFF"
+        fontFamily="El Messiri"
+      >
+        GASTOS
+      </Text>
+    );
+  }
+
+  function Rectangle5() {
+    return (
+      <Rectangle
+        name="Rectangle5"
+        fill="#D8DFE5"
+        width={398}
+        height={229}
+      />
+    );
+  }
+  
+

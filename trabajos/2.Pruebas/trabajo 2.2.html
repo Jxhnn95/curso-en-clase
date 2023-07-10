@@ -1,0 +1,159 @@
+
+
+
+
+<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+
+<style>
+    /* Se verán afectados por este estilo todas las etiquetas <p> */
+    p {
+    text-align: center;
+    color: red;
+    }
+    <style>
+#saludo {
+text-align: center;
+color: red;
+}
+</style>
+<p id="saludo">Hola</p>
+<p>Adiós</p>
+
+            <style>
+                .saludos {
+                text-align: center;
+                color: red;
+                }
+                </style>
+                <p class="saludos">Hola</p>
+                <p class="saludos">Buenos días</p>
+                <!-- nombres de colores -->
+<h1 style="background-color:rgb(200, 0, 255)">Rojosdfedfgrfg<br>ddfsfgdfgb<br></h1>
+<!-- rgb(red, green, blue) entre 0 y 255 -->
+<h1 style="background-color:rgb(255, 71, 184);">255, 99, 71</h1>
+<!-- hexadecimal (#rrggbb) con rr (red), gg (green), bb(blue) entre 00 y FF -->
+<h1 style="background-color:#5fff47">#ff6347</h1>
+<!--
+hsl(hue, saturation, lightness, alpha) con tono, saturación, claridad, opacidad
+El tono varía de 0 a 360. 0 es rojo, 120 es verde, 240 es azul y 360 vuelve a ser el
+rojo
+La saturación (intensidad del color) es un valor porcentual, 0% significa un tono de
+gris y 100% es el color completo
+La claridad es también un porcentaje: 0% es oscuro y el 100% es claro
+La opacidad es un número: 0.0 (totalmente transparente) y 1.0 (totalmente opaco)
+-->
+<h1 style="background-color:hsla(233, 100%, 64%, 0.5);">120, 100%, 64%,
+0.5</h1>
+
+--
+<style>
+    .red-and-bold
+    #green {
+    color: rgba(101, 103, 101, 0.975);
+    }
+    89
+    LOTE 2
+    div {
+        font-weight: bold;
+    color: red;
+    }
+    </style>
+    <div id="green-and-lighter">
+        <!-- orden de la especificidad: #red-and-bold > div > #green-and-lighter -->
+        <!-- sin embargo, se aplica la propiedad color del selector #green-and-lighter porque el
+        selector más específico (#red-and-bold) indica que se herede esa propiedad -->
+        <div id="red-and-bold"> 
+
+
+            --
+    <!-- este div es coincidente con el selector de etiqueta div -->
+    <div>Hola</div>
+    <!-- este div es coincidente con el selector de etiqueta div y el selector #green -->
+    <div id="green">Holaaaa</div>
+    <div class="red-and-bold">Holaaaaaa</div>
+    <div id="black-and-lighter" class="red-and-bold">Holaaaaaaa</div>
+    Si el selector es exactamente el mi
+
+        <!-- se aplica la propiedad font-weight del primer selector div -->
+        <!-- NO se aplica la propiedad color del primer selector div -->
+        <!-- se aplica la propiedad color del segundo selector div -->
+       
+            <!-- se aplican las propiedades font-weight y color del selector .red-and-bold -->
+            <!-- NO se aplica la propiedad color del segundo selector div -->
+           
+                <!-- se aplican las propiedades font-weight y color del selector #white-and-bold -->
+                <!-- NO se aplican las propiedades font-weight y color del selector .red-and-bold -->
+                <!-- NO se aplica la propiedad y color del selector div -->
+               
+                <style>
+                    #green-and-bold {
+                    font-weight: bold;
+                    color: rgb(235, 33, 164);
+                    }
+                    92
+                    LOTE 2
+                    </style>
+                    <div id="green-and-bold">
+                    <!-- se heredan las propiedades del selector #green-and-bold -->
+                    <div>Hola</div>
+                    </div>
+
+
+
+                    <style>
+.centrar {
+text-align: center;
+}
+.red {
+color: red;
+}
+</style>
+<!-- aplican los estilos de los selectores .centrar y .red -->
+<p class="centrar red">Hola</p>
+<!-- aplican los estilos del selector .centrar -->
+<p class="centrar">Buenos días</p>
+También se pueden agrupar selectores para aplicar los mismos estilos utilizando una coma
+para separar los selectores.
+<style>
+/* afecta a todos los elementos con el atributo class="saludos" o class="red" */
+.saludos, .red {
+text-align: center;
+color: red;
+}
+</style>
+<p class="saludos red">Hola</p>
+<p class="saludos">Buenos días</p>
+<p class="red">¿Cómo estás?</p>
+
+<style>
+    /* se aplica a un elemento p que esté contenido dentro de un elemento div y que no
+    necesariamente tiene que ser ancestro directo */
+    div p {
+    background-color: yellow;
+    }
+    p {
+    background-color: red;
+    }
+    </style>
+    <div id="hola">
+    <!-- se aplica la propiedad background-color de la combinación de selectores div p, que
+    es más específica que el selector p -->
+    <!-- sin embargo, la combinación de selectores div p no sería más específica que otros
+    como #hola p o .saludos -->
+    <p class="saludos">Buenos días</p>
+    </div>
+    
+    <style>
+        div p {
+        color: red;
+        }
+        </style>
+        <div>
+        <div>NO aplica</div>
+        <p>Aplica</p>
+        <div>NO aplica</div>
+        <article>
+        <p>Aplica</p>
+        </article>
+        <p>Aplica</p>
+        </div>

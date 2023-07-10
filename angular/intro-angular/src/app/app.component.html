@@ -1,0 +1,18 @@
+<h1> {{ Lista De Compra }}</h1>
+
+<app-lista-compra></app-lista-compra>
+<!--<app-lista-compra>-->
+<nav><a routerLink="/mi-lista">Mi Lista</a>
+     <a routerLink="/mi-nueva-lista">Nueva Lista</a>
+</nav>
+<!--aqui se carga todas las paginas al navegar-->
+<router-outlet></router-outlet>
+
+<app-nueva-lista></app-nueva-lista>
+<nav><a routerLinkt="/nueva-lista">Mi nueva Lista</nav>
+<router-outlet></router-outlet>
+
+
+
+
+<!--Menu desplegable-->

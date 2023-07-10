@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    background-color: antiquewhite;
+    color: aquamarine;
+    text-align: center;
+
+}
+h1{
+    font-size: 16px;
+}
+#valor{
+    font-size: 90px;
+    font-weight: bold;
+}
+.btn{
+    font-size: 25px;
+    border-radius: 10%;
+    background: lightgrey;
+    color: black;
+    cursor: pointer;
+}
+.btn:hover{
+    color:gray;
+    background-color: black;
+
+
+}
+)

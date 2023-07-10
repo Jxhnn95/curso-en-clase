@@ -1,0 +1,7 @@
+<input placeholder="Nuevo producto" type="text" [(ngMode)]="nuevoProducto">
+<button [disabled]="!nuevoProducto" (click)="incluirProducto()">Añadir</button>
+<ul>
+    <li *ngFor="let producto of productos; let i = index"><span>{{i}}{( producto )}</span> <button (click)='borrarProducto(i)'>x</button></li>
+</ul>
+
+<!--npm install bootstrap-->

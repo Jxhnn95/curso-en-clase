@@ -1,0 +1,226 @@
+* {
+    /*regla de seleccionar todos los elementos y cambiarle los valores  */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* margen dentro de la caja*/
+    /*googlefonts:https://fonts.google.com/*/
+}
+
+body {
+    /*fondo pantalla*/
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    font-size: 18px;
+    background: linear-gradient(150deg,#269fdb,#abdcc0 );
+    height: 100vh;
+    text-align: center;}
+
+header{ /*cuadro de navegacion tipo netflix web*/
+    background: white;
+    width: 100%;
+   
+    clear: both;
+    content: '';
+    display:table;
+}
+.menu{
+   width: 900px;
+   margin: 0 auto;
+
+}
+h1{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    text-align: left;
+
+
+}
+nav{
+    float: right;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 75px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #6c3483;
+    font-weight: bold;
+}
+nav ul li a ::before{
+    display: block;
+    content: '';
+    width: 100%;
+    background: #6c3483;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width: 1s;
+
+  
+}
+nav ul a:hover::before{
+
+}/*cuadro de navegacion*/
+
+header {
+    /*stilo de color de caja de titulo*/
+    background: none;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100$;
+    /*centrar vertical poniendo la anchura de caja*/
+    color: white;
+    /*color letra*/
+    border-bottom: 3px solid black;
+  }
+
+nav {
+    /* fondo de cuadro de menu*/
+    background: white;
+    height: 100%;
+    /*altura*/
+    border-bottom: 3px solid white;
+    /*borde menu*/
+}
+
+nav ul li {
+    /* diseñar menu*/
+    float:center;
+    /*ala izquieda los elementos*/
+    list-style: none;
+    /*ningun estilo*/
+    margin: 10px;
+    line-height: 30px;
+    /*centrar menu*/
+    justify-content: space-around;
+}
+ 
+ .grid-layout{
+   
+    display: grid;
+    grid-template-columns: auto 70% ;
+    grid-template-rows: 20%;
+    background-color:lightgreen ;
+    border: 1px solid white;
+
+
+}
+.caja {
+
+    border: 1px solid white;
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+
+
+}
+.c1{
+    grid-column: 1/ span 1;
+    grid-row:  1 / span 2;
+    background-color: lightseagreen;
+}.c2{
+    grid-column: 2/ span 2;
+    background-color: lightskyblue;
+}
+.c3{
+    grid-column: 1/ span 1;
+    background-color: lightskyblue;
+}
+.c4{
+    grid-column: 2/ span 2;
+    background-color: lightskyblue;
+}
+.c5{
+    grid-column: 1/ span 1;
+    background-color: lightskyblue;
+}
+.c6{
+    grid-column: 2/ span 2;
+    background-color: lightskyblue;
+}
+.c7{
+    grid-column: 1/ span 1;
+    background-color: lightskyblue;
+}
+.c8{
+    grid-column: 2/ span 2;
+    background-color: lightskyblue;
+}
+
+#container {
+    /*borde caja*/
+    width: 100%;
+    /*ancho*/
+    margin: 0px auto;
+    border: 1px solid rgb(0, 0, 0);
+    /*caja*/
+
+
+}
+
+
+
+
+.clearfix {
+    clear: both;
+
+}
+
+
+
+#content {
+    /*contenido de la pagina*/
+    float: left;
+    width: calc(80%- 80px);
+    min-height: 500px;
+    background:none;
+    padding: 40px;
+
+    .article {
+        color: rgb(0, 0, 0);
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgb(255, 255, 255);
+    }
+
+    .article:first-child {
+        padding-top: 10px;
+        border-top: 1px solid white;
+    }
+
+    .article h2 {
+        font-size: 25px;
+    }
+
+}
+
+aside {
+    /*tamaño color barra lateral*/
+    float: left;
+    width: calc(20% - 20px);
+    /* para quitarle los borde x dos lados  porciento - pixeles*/
+    background: white;
+    min-height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+
+}
+
+footer {
+    /* color tamañao pie de pagina*/
+    background: black;
+    color: white;
+
+}
+

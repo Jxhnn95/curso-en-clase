@@ -1,0 +1,19 @@
+class
+text {
+    color: var (color.warning);
+
+}
+.text.succes{
+    color: var ( color-succes);
+
+}
+.text.desing{
+    color: var ((color))
+}
+.bIn{
+    padding: 18px 12px;
+    border: 0;
+    
+
+
+}

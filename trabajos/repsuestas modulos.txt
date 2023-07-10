@@ -1,0 +1,89 @@
+float - es char
+friendly
+No hay limitaciones (excepto si se agota la memoria del ordenador)
+
+Con extends se heredan clases y clases abstractas
+
+
+null- es 3
+boolean x= true
+new- es create
+protected
+boolean
+==- es toString
+
+
+
+
+
+----modulo
+SQL
+
+repositiorio- es tabla
+
+Una interfaz web para la gestión de una base de datos MariaDB
+
+CHAR
+int
+Clave primaria
+Create-Read-Update-Delete
+SELECT
+DELETE
+Inyecciones SQL
+
+
+---moduloo--
+
+
+Un servidor o contenedor de aplicaciones
+
+inversion de control..
+Un objeto de Java que no es obtenido a través de una instanciación normal, sino mediante a través de una factoría de objetos o contenedor
+
+desde base de datos
+
+
+No puede ser inyectado en una clase sin paquete.
+
+
+mvc
+
+Controlador
+RequestBody
+200
+war
+
+
+
+
+--finaltest-
+
+
+git
+
+console.log(variable)
+
+Node.js
+Dentro de los componentes
+
+
+
+private
+Con el método equals
+
+RequestParam
+
+
+
+
+int
+
+RequestBody
+
+200
+
+
+
+
+
+

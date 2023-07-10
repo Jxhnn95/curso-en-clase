@@ -1,0 +1,31 @@
+ambiar servidor 8081 y 4443
+poner cuenta usuario
+nuevo usuEIO
+BANCO
+contraseña: banco
+
+base de datos con el mismo nombre y privilegios
+
+
+
+crear tabla: gestor
+ nombre columna id
+numeor entero
+longitud no se india normalmente
+clave primaria para el id
+ en el navegador y marcar alado
+
+crear tabla cliente
+
+
+
+
+cliente :
+id_asesor int pk
+
+comision:
+ id int
+id_asesor: int
+id_cliente: int
+total: doble
+fecha: datetime

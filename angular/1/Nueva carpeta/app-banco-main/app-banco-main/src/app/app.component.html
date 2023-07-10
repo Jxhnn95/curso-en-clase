@@ -1,0 +1,43 @@
+<!-- un comentario -->
+<nav class="main-menu">
+  <ul>
+    <li><a routerLink="/auth/login">Inciar sesión</a></li>
+    <li><a routerLink="/pages/dashboard">Inicio</a></li>
+    <li>
+      <a routerLink="/pages/my-acount">
+       Mi cuenta
+      </a>
+    </li>
+    <li>
+      <a routerLink="/pages/new-transfer">
+        Nueva transaccion
+      </a>
+    </li>
+    <li>
+      <a routerLink="/pages/transfer">
+      Transaccion
+      </a>
+    </li>
+    
+
+
+    <li>
+      <a routerLink="/pages/transferencias-recibidas">
+        Transferencias recibidas
+      </a>
+    </li>
+    <li>
+      <a routerLink="/pages/transferencias-enviadas">
+        Transferencias enviadas
+      </a>
+    </li>
+    <li>
+      <a routerLink="/pages/detalls-transfer">
+       Detalles de transferencia
+      </a>
+    </li>
+
+  </ul>
+</nav>
+<!-- aquí se recarga el contenido al cambiar de ruta -->
+<router-outlet></router-outlet>

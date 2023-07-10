@@ -1,0 +1,16 @@
+adb divices para compartir pantalla en la carpeta con cmd
+scrcpy
+
+para java
+
+instalar 
+javaa
+https://adoptium.net/es/
+https://www.oracle.com/java/technologies/downloads/#java11
+(Se debe añadir a sistemas  ,comprobar version java cmd : javac -version)
+eclipse
+https://www.eclipse.org/downloads/packages/
+
+
+((*para node:
+https://nodejs.org/es*))
